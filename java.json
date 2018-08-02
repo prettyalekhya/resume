@@ -1,0 +1,57 @@
+{
+  "career":{
+    "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization."
+
+  },
+  "education":[
+    {
+      "degree":"B-Tech(Computer Science & Engineering)",
+      "institute":"Siddharth College Of Engineering",
+        "data":["2015-19","79%"]
+      },
+    {
+      "degree":"Intermediate(M.P.C)",
+      "institute":"Vedavyasa Vidhya Junior College",
+        "data":["2013-15","93%"]
+    },
+
+  {
+    "degree":"S.S.C",
+    "institute":"Vedavyasa Vidhya Niketan",
+      "data":["2013","97%"]
+  }
+],
+"skills":[
+  {
+    "title":"Programming Languages",
+    "set":["C","Java","Python","C++"]
+  },
+  {
+    "title":"Web Technologies",
+    "set":["HTML","Java Script","CSS","PHP"]
+  },
+  {
+    "title":"Data Bases",
+    "set":["Oracle","Mysql","sql","nosql"]
+  },
+  {
+    "title":"Operating System",
+    "set":["Windows","Linux","Dos","Mac"]
+  }
+],
+"achievements":[
+  {
+  "achievedData":"Got First  Prize in PPt Presentation."
+},
+{
+  "achievedData":"Got First Prize in Technical Quiz."
+},
+{
+  "achievedData":"Got First Prize in Running Race."
+},
+{
+"achievedData":"Got First Prize in Drawing Compitation."
+}
+]
+
+}

@@ -1,3 +1,7 @@
+tr:nth-child(even){
+  background:#ddd;
+}
+
 .parent{
   display: flex;
   flex-direction: row;
@@ -11,7 +15,11 @@
 
 }
 img{
-border: 2px solid #145556   ;
+  border: 2px solid  #145556  ;
+
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 h2,
 h3,
@@ -19,19 +27,24 @@ a{
   text-align: center;
 
 }
-a{
+.a{
   display: block;
   text-align: center;
   text-decoration: none;
   background: #145556     ;
   color: :#fff;
   padding: 2%;
+
+
 }
 .leftChild{
   width: 30%;
   border: 2px solid  #145556  ;
     padding: 2%;
     margin: 2%;
+    text-align: center;
+font-size: 18px;
+font-style: normal;
 
 }
 .rightChild{
@@ -39,4 +52,68 @@ a{
   border: 2px solid  #145556 ;
     padding: 2%;
     margin: 2%;
+
+}
+.mail{
+  text-decoration: none;
+  font-size: 18px;
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+
+  .parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .child{
+    border:2px solid #145556   ;
+    padding:2%;
+    margin:2%;
+    box-shadow:3px 3px 3px #ddd;
+
+  }
+  img{
+    border: 2px solid  #145556  ;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  h2,
+  h3,
+  a{
+    text-align: center;
+
+  }
+  .a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #145556     ;
+    color: :#fff;
+    padding: 2%;
+
+
+  }
+  .leftChild{
+    width: 50%;
+    border: 2px solid  #145556  ;
+      padding: 2%;
+      margin: 2%;
+      text-align: center;
+  font-size: 18px;
+  font-style: normal;
+
+  }
+  .rightChild{
+    width: 50%;
+    border: 2px solid  #145556 ;
+      padding: 2%;
+      margin: 2%;
+
+  }
+  .mail{
+    text-decoration: none;
+    font-size: 18px;
+  }
 }
